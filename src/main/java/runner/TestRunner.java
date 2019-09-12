@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "F:\\selenium\\cucumberdemo\\src\\main\\java\\features\\contacts.feature",
+@CucumberOptions(features = "F:\\selenium\\cucumberdemo\\src\\main\\java\\features\\deals.feature",
 					glue  = {"step"},
 					plugin = {"pretty","html:test-output","junit:junit-output/cucumber.xml","json:json-output/output.json"},
 					monochrome=true,
