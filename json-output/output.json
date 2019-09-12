@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Contact page functionality check",
+        "description": "",
+        "id": "freecrm-contact-features;contact-page-functionality-check;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31263764089,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open browser and navigate to login page",
+            "match": {
+              "location": "Login_Steps.open_browser_and_navigate_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6063286646,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i use valid \"practicedemo67@gmail.com\" and \"Demo@678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "practicedemo67@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Demo@678",
+                  "offset": 44
+                }
+              ],
+              "location": "Login_Steps.i_use_valid_credential(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2006901440,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login to application successfully",
+            "match": {
+              "location": "Login_Steps.login_to_application_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76269636,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer is in homepage of FreeCRM",
+            "match": {
+              "location": "Login_Steps.customer_is_in_homepage_of_FreeCRM()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 254393321,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer click contacts option",
+            "match": {
+              "location": "Login_Steps.customer_click_contacts_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191347571,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer navigate to contact page",
+            "match": {
+              "location": "Login_Steps.customer_navigate_to_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6778542323,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer clicks on New button",
+            "match": {
+              "location": "Login_Steps.customer_clicks_on_New_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6921008669,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "customer enters firstname and lastname",
+            "match": {
+              "location": "Login_Steps.customer_enters_firstname_and_lastname()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1358714886,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify contact is created successfully",
+            "match": {
+              "location": "Login_Steps.verify_contact_is_created_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1094194301,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user close the browser",
+            "match": {
+              "location": "Login_Steps.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Freecrm contact features",
+    "description": "",
+    "id": "freecrm-contact-features",
+    "keyword": "Feature",
+    "uri": "F:/selenium/cucumberdemo/src/main/java/features/contacts.feature"
+  }
+]

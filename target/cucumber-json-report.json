@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "login page check with valid credentials",
+        "description": "",
+        "id": "smoke-test;login-page-check-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15810902597,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open browser and navigate to login page",
+            "match": {
+              "location": "Login_Steps.open_browser_and_navigate_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 352588,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i use valid credential",
+            "match": {
+              "location": "Login_Steps.i_use_valid_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178709,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login to aplication successfully.",
+            "match": {
+              "location": "Login_Steps.login_to_aplication_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "smoke test",
+    "description": "",
+    "id": "smoke-test",
+    "keyword": "Feature",
+    "uri": "F:/selenium/cucumberdemo/src/main/java/features/login.feature"
+  }
+]
