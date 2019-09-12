@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 16,
+        "line": 17,
         "name": "Contact page functionality check",
         "description": "",
         "id": "freecrm-contact-features;contact-page-functionality-check;;2",
@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31263764089,
+              "duration": 27003714256,
               "status": "passed"
             },
             "line": 3,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 6063286646,
+              "duration": 1073068566,
               "status": "passed"
             },
             "line": 4,
@@ -50,7 +50,7 @@
           },
           {
             "result": {
-              "duration": 2006901440,
+              "duration": 1916487806,
               "status": "passed"
             },
             "line": 5,
@@ -62,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 76269636,
+              "duration": 164638980,
               "status": "passed"
             },
             "line": 6,
@@ -74,31 +74,31 @@
           },
           {
             "result": {
-              "duration": 254393321,
+              "duration": 487709810,
               "status": "passed"
             },
             "line": 7,
-            "name": "Customer click contacts option",
+            "name": "Customer clicks on deal option",
             "match": {
-              "location": "Login_Steps.customer_click_contacts_option()"
+              "location": "Login_Steps.customer_clicks_on_deal_option()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 191347571,
+              "duration": 180029716,
               "status": "passed"
             },
             "line": 8,
-            "name": "customer navigate to contact page",
+            "name": "customer navigate to deal page",
             "match": {
-              "location": "Login_Steps.customer_navigate_to_contact_page()"
+              "location": "Login_Steps.customer_navigate_to_deal_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6778542323,
+              "duration": 1185025729,
               "status": "passed"
             },
             "line": 9,
@@ -110,34 +110,240 @@
           },
           {
             "result": {
-              "duration": 6921008669,
+              "duration": 1314853220,
               "status": "passed"
             },
             "line": 10,
-            "name": "customer enters firstname and lastname",
+            "name": "customer enters \"project1\",\"new project1 crated\" and \"20\"",
             "match": {
-              "location": "Login_Steps.customer_enters_firstname_and_lastname()"
+              "arguments": [
+                {
+                  "val": "project1",
+                  "offset": 17
+                },
+                {
+                  "val": "new project1 crated",
+                  "offset": 28
+                },
+                {
+                  "val": "20",
+                  "offset": 54
+                }
+              ],
+              "location": "Login_Steps.customer_enters_and(String,String,String)"
             },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1358714886,
+              "duration": 148009353,
               "status": "passed"
             },
             "line": 11,
-            "name": "verify contact is created successfully",
+            "name": "customer clicks on save button",
             "match": {
-              "location": "Login_Steps.verify_contact_is_created_successfully()"
+              "location": "Login_Steps.customer_clicks_on_save_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1094194301,
+              "duration": 1069933304,
               "status": "passed"
             },
             "line": 12,
+            "name": "verify deal is created",
+            "match": {
+              "location": "Login_Steps.verify_deal_is_created()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998727300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user close the browser",
+            "match": {
+              "location": "Login_Steps.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Contact page functionality check",
+        "description": "",
+        "id": "freecrm-contact-features;contact-page-functionality-check;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19297953718,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open browser and navigate to login page",
+            "match": {
+              "location": "Login_Steps.open_browser_and_navigate_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 901338569,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i use valid \"practicedemo67@gmail.com\" and \"Demo@678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "practicedemo67@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Demo@678",
+                  "offset": 44
+                }
+              ],
+              "location": "Login_Steps.i_use_valid_credential(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2009472198,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login to application successfully",
+            "match": {
+              "location": "Login_Steps.login_to_application_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 490221400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer is in homepage of FreeCRM",
+            "match": {
+              "location": "Login_Steps.customer_is_in_homepage_of_FreeCRM()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 290880210,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer clicks on deal option",
+            "match": {
+              "location": "Login_Steps.customer_clicks_on_deal_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1298525466,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer navigate to deal page",
+            "match": {
+              "location": "Login_Steps.customer_navigate_to_deal_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 622246533,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer clicks on New button",
+            "match": {
+              "location": "Login_Steps.customer_clicks_on_New_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1428723659,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "customer enters \"project2\",\"new project2 crated\" and \"30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "project2",
+                  "offset": 17
+                },
+                {
+                  "val": "new project2 crated",
+                  "offset": 28
+                },
+                {
+                  "val": "30",
+                  "offset": 54
+                }
+              ],
+              "location": "Login_Steps.customer_enters_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 271326633,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "customer clicks on save button",
+            "match": {
+              "location": "Login_Steps.customer_clicks_on_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1424510104,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify deal is created",
+            "match": {
+              "location": "Login_Steps.verify_deal_is_created()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 872225251,
+              "status": "passed"
+            },
+            "line": 14,
             "name": "user close the browser",
             "match": {
               "location": "Login_Steps.user_close_the_browser()"
@@ -151,6 +357,6 @@
     "description": "",
     "id": "freecrm-contact-features",
     "keyword": "Feature",
-    "uri": "F:/selenium/cucumberdemo/src/main/java/features/contacts.feature"
+    "uri": "F:/selenium/cucumberdemo/src/main/java/features/deals.feature"
   }
 ]
